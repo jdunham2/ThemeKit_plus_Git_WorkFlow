@@ -19,7 +19,7 @@ Make sure you have ThemeKit downloaded:
 https://shopify.github.io/themekit/  
 
 Pull Git Repo
-`git clone https://github.com/JDSdevelopment/jdstheme.git`  
+`git clone ...`  
 
 ### Configure Theme
 Find the theme id of **your personal development theme** do not use [live] id  
