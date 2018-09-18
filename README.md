@@ -1,4 +1,4 @@
-#Shopify Theme Development
+# Shopify Theme Development
 The release cycle would look like the following:
 
 1. Create **developerName** theme ID on your Shopify store
@@ -11,21 +11,21 @@ The release cycle would look like the following:
 
 5. Deploy theme changes to your live store
 
-##Create Developer Theme ID
+## Create Developer Theme ID
 Upload theme to shopify [ Dashboard->themes ]
 
 blankTheme.zip from Git repo is fine.
 
 Rename theme.
 
-##Developer Setup:
+## Developer Setup:
 Make sure you have ThemeKit downloaded:
 https://shopify.github.io/themekit/
 
 Pull Git Repo
 `git clone https://github.com/JDSdevelopment/jdstheme.git`
 
-###Configure Theme
+### Configure Theme
 Find the theme id of **your personal development theme** do not use [live] id
 
 `theme get --list`
@@ -40,7 +40,7 @@ development:
   store: [store].myshopify.com
 ```
 
-###Developing/Previewing
+### Developing/Previewing
 Preview changes on shopify
 `theme open`
 
@@ -55,7 +55,7 @@ Create Pull Request for new feature, bug fix, etc
 
 
 
-##Merging Into Live Theme
+## Merging Into Live Theme
 Pull master branch
 
 -----------------------
