@@ -7,6 +7,14 @@ The release cycle would look like the following:
 4. Merge pull request into the master branch  
 5. Deploy theme changes to your live store  
 
+Benefits:
+Teams can share progress and preview live work on Shopify servers
+Changes will never upload to the production store unless explicit `--env="production"` is added AND config.yml is setup with production theme-id
+Unlink Shopify Slate, wont require any additional tools to compile code since Shopify servers do all of the compiling.
+
+Downside:
+Not true local development
+
 
 ## Create Developer Theme ID
 Upload theme to shopify [ Dashboard->themes ]  
