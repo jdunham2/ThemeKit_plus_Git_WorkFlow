@@ -1,4 +1,4 @@
-# Shopify Theme Development
+# Shopify Theme Development for Teams using ThemeKit and Git
 The release cycle would look like the following:  
 
 1. Create **developerName** theme ID on your Shopify store  
