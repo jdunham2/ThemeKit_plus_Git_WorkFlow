@@ -65,7 +65,7 @@ Pull master branch
 (if people still editing using Shopify.com instead of only via code):
 
 Download all changes from Shopify live online:
-`theme download`
+`theme download --env=”production”`
 
 Check if any changes to shopify online and update git master
 ```
