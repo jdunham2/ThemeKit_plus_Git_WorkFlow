@@ -1,38 +1,33 @@
 # Shopify Theme Development
-The release cycle would look like the following:
+The release cycle would look like the following:  
 
-1. Create **developerName** theme ID on your Shopify store
+1. Create **developerName** theme ID on your Shopify store  
+2. Each developer downloads ThemeKit and updates environment settings to reflect the their theme ID  
+3. Create pull request for new feature, bug fix, etc.  
+4. Merge pull request into the master branch  
+5. Deploy theme changes to your live store  
 
-2. Each developer downloads ThemeKit and updates environment settings to reflect the their theme ID
-
-3. Create pull request for new feature, bug fix, etc.
-
-4. Merge pull request into the master branch
-
-5. Deploy theme changes to your live store
 
 ## Create Developer Theme ID
-Upload theme to shopify [ Dashboard->themes ]
+Upload theme to shopify [ Dashboard->themes ]  
+blankTheme.zip from Git repo is fine.  
+Rename theme.  
 
-blankTheme.zip from Git repo is fine.
-
-Rename theme.
 
 ## Developer Setup:
-Make sure you have ThemeKit downloaded:
-https://shopify.github.io/themekit/
+Make sure you have ThemeKit downloaded:  
+https://shopify.github.io/themekit/  
 
 Pull Git Repo
-`git clone https://github.com/JDSdevelopment/jdstheme.git`
+`git clone https://github.com/JDSdevelopment/jdstheme.git`  
 
 ### Configure Theme
-Find the theme id of **your personal development theme** do not use [live] id
-
-`theme get --list`
-
-Rename config.yml.example to config.yml
-
-Update development section of config.yml with your theme id
+Find the theme id of **your personal development theme** do not use [live] id  
+`theme get --list`  
+  
+Rename config.yml.example to config.yml  
+  
+Update development section of config.yml with your theme id  
 ```
 development:
   password: [password]
@@ -50,13 +45,12 @@ Automatic upload code changes:
 Manually upload code changes:
 `theme deploy`
 
-
 Create Pull Request for new feature, bug fix, etc
 
 
 
 ## Merging Into Live Theme
-Pull master branch
+Pull master branch  
 
 -----------------------
 (if people still editing using Shopify.com instead of only via code):
