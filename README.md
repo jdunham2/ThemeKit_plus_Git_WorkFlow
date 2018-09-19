@@ -8,7 +8,7 @@ The release cycle would look like the following:
 5. Deploy theme changes to your live store  
 
 #### Benefits:  
-1. Teams can share progress and preview live work on Shopify servers  
+1. Teams can preview work and share progress on Shopify servers
 2. Changes will never upload to the production store unless explicit `--env="production"` is added **AND** config.yml is setup with production theme-id  
 3. Unlike Shopify Slate, doesn't require any additional tools or configuration to compile code since Shopify servers do all of the compiling.
 
