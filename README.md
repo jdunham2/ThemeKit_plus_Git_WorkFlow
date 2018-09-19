@@ -48,10 +48,10 @@ Preview changes on shopify
 `theme open`
 
 Automatic upload code changes:
-`theme watch`
-or
+`theme watch`  
+or  
 Manually upload code changes:
-`theme deploy`
+`theme deploy`  
 
 Create Pull Request for new feature, bug fix, etc
 
