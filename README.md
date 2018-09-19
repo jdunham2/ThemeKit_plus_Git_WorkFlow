@@ -18,9 +18,8 @@ The release cycle would look like the following:
 
 # Breakdown:
 ## Create Developer Theme ID
-Upload theme to shopify [ Dashboard->themes ]  
-blankTheme.zip from Git repo is fine.  
-Rename theme.  
+Upload blank theme to shopify [ Dashboard->themes ]  
+Rename theme to **developerName**  
 
 
 ## Developer Setup:
