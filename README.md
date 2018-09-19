@@ -10,7 +10,8 @@ The release cycle would look like the following:
 #### Benefits:  
 1. Teams can preview work and share progress on Shopify servers
 2. Changes will never upload to the production store unless explicit `--env="production"` is added **AND** config.yml is setup with production theme-id  
-3. Unlike Shopify Slate, doesn't require any additional tools or configuration to compile code since Shopify servers do all of the compiling.
+3. Unlike Shopify Slate, doesn't require any additional tools or configuration to compile code
+4. Shopify servers do all of the compiling.
 
 #### Downside:  
 1. Not true local development
