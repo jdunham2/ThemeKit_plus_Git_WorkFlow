@@ -64,7 +64,7 @@ Pull master branch
 (if people still editing using Shopify.com instead of only via code):
 
 Download all changes from Shopify live online:
-`theme download --env=”production”`
+`theme download --env='production'`
 
 Check if any changes to shopify online and update git master
 ```
@@ -77,7 +77,7 @@ git push
 Merge developers branch into master branch, fix conflicts, and push
 
 Publish to shopify live store:
-`theme deploy --env=”production”`
+`theme deploy --env='production'`
 
 
 
