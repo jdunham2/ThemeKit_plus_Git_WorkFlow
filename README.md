@@ -31,10 +31,10 @@ Pull Git Repo
 `git clone ...`  
 
 ### Configure Theme
+Rename config.yml.example to config.yml
+
 Find the theme id of **your personal development theme** do not use [live] id  
 `theme get --list`  
-  
-Rename config.yml.example to config.yml  
   
 Update development section of config.yml with your theme id  
 ```
