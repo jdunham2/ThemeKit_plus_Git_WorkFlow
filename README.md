@@ -60,17 +60,17 @@ Create Pull Request for new feature, bug fix, etc
 ## Merging Into Live Theme
 Pull master branch  
 
------------------------
+
 #### Additional WF if still editing using Shopify.com instead of only via code:
+-----------------------
+Download all changes from Shopify live online:
+`theme download --env='production'`
 
-⋅⋅⋅ Download all changes from Shopify live online:
-⋅⋅⋅ `theme download --env='production'`
-
-⋅⋅⋅ Check if any changes to shopify online and update git master
-⋅⋅⋅ ```
-⋅⋅⋅ git status
-⋅⋅⋅ git commit -a -m 'update git with changes to shopify website'
-⋅⋅⋅ git push
+Check if any changes to shopify online and update git master
+```
+git status
+git commit -a -m 'update git with changes to shopify website'
+git push
 ```
 -----------------------
 
