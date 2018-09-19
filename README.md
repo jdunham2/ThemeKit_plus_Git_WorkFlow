@@ -49,7 +49,7 @@ Preview changes on shopify
 
 Automatic upload code changes:
 `theme watch`
-
+or
 Manually upload code changes:
 `theme deploy`
 
