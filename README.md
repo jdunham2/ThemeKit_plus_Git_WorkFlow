@@ -17,15 +17,18 @@ The release cycle would look like the following:
 
 
 # Breakdown:
+## Download ThemeKit
+https://shopify.github.io/themekit/#installation
+
+## Setup API access
+https://shopify.github.io/themekit/#get-api-access
+
 ## Create Developer Theme ID
 Upload blank theme to shopify [ Dashboard->themes ]  
 Rename theme to **developerName**  
 
 
-## Developer Setup:
-Make sure you have ThemeKit downloaded:  
-https://shopify.github.io/themekit/  
-
+## Clone Production Site from Git
 Pull Git Repo
 `git clone ...`  
 
@@ -43,17 +46,17 @@ development:
   store: [store].myshopify.com
 ```
 
-### Developing/Previewing
-Preview changes on shopify
-`theme open`
-
+### Developing and Previewing
 Automatic upload code changes:
 `theme watch`  
 or  
 Manually upload code changes:
 `theme deploy`  
 
-Create Pull Request for new feature, bug fix, etc
+Preview changes on shopify
+`theme open`
+
+#### Create Pull Request for new feature, bug fix, etc
 
 
 
